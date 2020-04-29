@@ -36,6 +36,11 @@ $myOtherArray = array(
         $myObject
 ); 
 
+$string1 = 'Hello my name is';
+$string2 = 'Michael Jackson. ';
+// We concatenate string using the "." character. ("+" is reserved for addition )
+$concattedString = $string1 . $string2;
+
 ?> <!DOCTYPE html>
 <html lang = "en">
 <head>
@@ -53,5 +58,8 @@ $myOtherArray = array(
         var_dump($myOtherArray);
     ?> 
     </pre>
+    <h2> Concatenated String </h2>
+    <p> 
+    <?php echo $concattedString; ?>
 </body>
 </html>
