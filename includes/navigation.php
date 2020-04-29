@@ -5,7 +5,7 @@
             <a href = "./index.php">Home</a>
         </li>
         <li>
-            <a href = "/form.php">Form</a> 
+            <a href = "./form.php">Form</a> 
         </li>
     </ul>
 </nav> 
