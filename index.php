@@ -59,6 +59,7 @@ $myDoubleQuoteHelloString = "Howdy there! My name is $string2";
     <h1><?php echo $myMessage; ?></h1>
     <!-- Echo is used to send message to browser -->
     <pre> <!-- Preformatted Text -->
+    <?php include './includes/navigation.php'; ?> <!-- Directing to another file -->
     <?php
     // Var dump is great for seeing what's inside
     var_dump($myOtherArray);
