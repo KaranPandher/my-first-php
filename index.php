@@ -47,5 +47,11 @@ $myOtherArray = array(
 <body>
     <h1><?php echo $myMessage; ?></h1> 
     <!-- Echo is used to send message to browser -->
+    <pre> <!-- Preformatted Text -->
+    <?php 
+        // Var dump is great for seeing what's inside
+        var_dump($myOtherArray);
+    ?> 
+    </pre>
 </body>
 </html>
