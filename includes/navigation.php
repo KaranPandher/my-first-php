@@ -16,6 +16,9 @@
         <li>
             <a href="./oop-and-file.php">OOP and File Retrieval / Reading</a>
         </li>
+        <li>
+            <a href="./api-request-test.php">API Request Test (JS + Endpoint</a>
+        </li>
     </ul>
 </nav>
 <?php // By default anything wirtten in a PPH file wil be sent to the browser ( or whatever client made the request ) See above, we have some HTML outputting, as we didn ot include any PHP tags <?php etc) that would tell PHP otherwise 
