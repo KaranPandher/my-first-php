@@ -2,6 +2,14 @@
     <h2> Website Navigation </h2>
     <ul>
         <li>
+            <a href="./phpinfo.php">
+                PHP Info
+                <strong style="color: red;">
+                    NEVER DO THIS IN A REAL WEBSITE
+                </strong>
+            </a>
+        </li>
+        <li>
             <a href="./index.php">Home</a>
         </li>
         <li>
@@ -19,6 +27,10 @@
         <li>
             <a href="./api-request-test.php">API Request Test (JS + Endpoint</a>
         </li>
+        <li>
+            <a href="./api-external-php-test.php">API Request Test (PHP + Endpoint)</a>
+        </li>
+
     </ul>
 </nav>
 <?php // By default anything wirtten in a PPH file wil be sent to the browser ( or whatever client made the request ) See above, we have some HTML outputting, as we didn ot include any PHP tags <?php etc) that would tell PHP otherwise 
